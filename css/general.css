@@ -1,6 +1,6 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -28,6 +28,10 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
